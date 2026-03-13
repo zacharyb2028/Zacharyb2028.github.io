@@ -12,13 +12,13 @@
   <link href="style.css" rel="stylesheet">
 </head>
 
-<body>
-  <div class="container-fluid bg-primary-subtle">
+<body id="body">
+  <div id="header" class="container-fluid">
       <h1 class="fw-medium text-center p-2 display-4">About Zach</h1>
     <p class="text-center text-secondary fs-5">A personal site where you can learn all about my life and how I live it</p>
 </div>
 
-<div class="container-fluid bg-secondary-subtle p-5">
+<div id="intro" class="container-fluid p-5">
   <p class="bg-light bg-gradient lead fs-6">My name is Zachary (aka Zach). Stuff you can expect to find out about me include my:
   <ul class="bg-light bg-gradient lead fs-6"> 
     <li>Favorite Sports and Hobbys</li>
@@ -30,7 +30,7 @@
 
 <hr>
 
-<div class="container-fluid">
+<div id="paragraph" class="container-fluid">
   <div class="row">
     <div class="col">
       <img class="img-fluid" src="https://m.media-amazon.com/images/I/71XxdIPdqaL._AC_UF894,1000_QL80_.jpg">
@@ -45,7 +45,7 @@
 
 <hr>
 
-<div class="container-fluid text-center m-2 bg-primary-subtle">
+<div id="cards" class="container-fluid text-center m-2 ">
 		<h2>In Depth</h2>
 		<div class="row">
 
@@ -88,16 +88,17 @@
 <hr>
 
 <div class="container text-center mx-auto">
+  <h1>Sports Photos!</h1>
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="Track.jpeg" class="d-block w-50">
+      <img src="Track.jpeg" class="d-block img-fluid">
     </div>
     <div class="carousel-item">
-      <img src="Shooter.jpeg" class="d-block w-50">
+      <img src="Shooter.jpeg" class="d-block img-fluid">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="Champ.jpeg" class="d-block img-fluid">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
